@@ -4,5 +4,9 @@ N Number of integer values.The task is to find the empty packets(0) of chocolate
 the conveyor belt(Array).
 
 Problem Statement 2:
-A toy factory is packing toys into boxes. Each box can contain either a toy (represented by an integer value) or be empty (represented by 0). Write a function to move all empty boxes to the end of the array while maintaining the order of the toys, and also return the count of empty boxes.
+A toy factory is packing toys into boxes. Each box can contain either a toy (represented by an integer value) or be empty (represented by 0). 
+Write a function to move all empty boxes to the end of the array while maintaining the order of the toys, and also return the count of empty boxes.
 
+Problem Statement 3:
+Given two integers M and N, calculate the product of all odd
+integers from M and N inclusive.if M is greater than N , return 1 or display an appropriate message
