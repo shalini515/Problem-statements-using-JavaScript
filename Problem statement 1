@@ -1,0 +1,18 @@
+array = [4,5,0,1,9,0,5,0];
+N = 8;
+let zeropos;
+for(i=0;i<N;i++){
+    if(array[i] == 0){
+        zeropos = i;
+        break;
+    }
+}
+for(i=zeropos+1;i<N;i++){
+    if(array[i] != 0){
+        temp = array[i];
+        array[i] = array[zeropos]
+        array[zeropos] = temp;
+        zeropos = i;
+    }
+}
+console.log(array);
