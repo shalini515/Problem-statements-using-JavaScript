@@ -1,0 +1,9 @@
+let M = 4;
+let N = 10;
+let prod = 1;
+for(i=M;i<=N;i++){
+    if(i % 2 != 0){
+        prod = prod * i;
+    }
+}
+console.log(prod);
